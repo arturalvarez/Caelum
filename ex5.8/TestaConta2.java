@@ -20,8 +20,8 @@ class TestaConta2 { //ex 5.8
     	c.deposita(100.0);
     	c.setDataAbertura(data);
 
-        c.deposita(50.0);
-        c.setDataAbertura(data);
+        c2.deposita(50.0);
+        c2.setDataAbertura(data);
 
 /*
     	if (c.saca(valor))
@@ -37,7 +37,7 @@ class TestaConta2 { //ex 5.8
     		System.out.println("Transferi " + valor + " para c2, que ficou com " + c2.saldo + " e eu fiquei com " + c.saldo);
     	}
 */
-    	c = c2;
+    	//c = c2;
 
     	if (c == c2)
     		System.out.println("iguais.");
